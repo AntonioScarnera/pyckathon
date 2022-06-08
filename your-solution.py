@@ -81,8 +81,8 @@ def takeValue(valore):
     if errors == 5 :
         custom_utils.removeOnClickEventFromHtmlElement(add_letter_btn)
         custom_utils.disableInputElement(user_letter)
+        print(usedLetters)        
 
-    custom_utils.writeToConsole(usedLetters)        
 
 
 custom_utils.addOnClickEventToHtmlElement(add_letter_btn, takeValue)
